@@ -1,0 +1,140 @@
+body {
+  background: #f5f5f5;
+}
+
+.ess-dashboard-2 .text-xl {
+  font-size: 36px;
+  font-weight: bold;
+}
+.ess-dashboard-2 .blue {
+  color: #3a7dd8;
+}
+.ess-dashboard-2 .orange {
+  color: #d5761b;
+}
+.ess-dashboard-2 .waves-effect {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #3a7dd8;
+  color: #3a7dd8;
+  background: transparent;
+  border-radius: 4px;
+  font-size: 14px;
+  height: 40px;
+  padding: 0 0.5rem;
+  box-shadow: none;
+  max-width: 400px;
+  z-index: auto;
+  will-change: unset;
+}
+.ess-dashboard-2 .waves-effect:hover {
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.12);
+}
+.ess-dashboard-2 a.link:not(.btn):not(.btn-large), .ess-dashboard-2 a.link:visited:not(.btn):not(.btn-large), .ess-dashboard-2 a.link:active:not(.btn):not(.btn-large), .ess-dashboard-2 a.download-link:not(.btn):not(.btn-large), .ess-dashboard-2 a.download-link:visited:not(.btn):not(.btn-large), .ess-dashboard-2 a.download-link:active:not(.btn):not(.btn-large), .ess-dashboard-2 a.select-all:not(.btn):not(.btn-large), .ess-dashboard-2 a.select-all:visited:not(.btn):not(.btn-large), .ess-dashboard-2 a.select-all:active:not(.btn):not(.btn-large), .ess-dashboard-2 a.select-none:not(.btn):not(.btn-large), .ess-dashboard-2 a.select-none:visited:not(.btn):not(.btn-large), .ess-dashboard-2 a.select-none:active:not(.btn):not(.btn-large) {
+  text-decoration: underline;
+}
+.ess-dashboard-2 .btn.icon-only {
+  background-color: transparent;
+}
+.ess-dashboard-2 .btn.icon-only.icon-only[data-action=approve] .fa, .ess-dashboard-2 .icon-only.icon-only[data-action=approve].btn-large .fa {
+  color: #007e45;
+}
+.ess-dashboard-2 .btn.icon-only.icon-only[data-action=decline], .ess-dashboard-2 .icon-only.icon-only[data-action=decline].btn-large, .ess-dashboard-2 .btn.icon-only.icon-only[data-action=cancel], .ess-dashboard-2 .icon-only.icon-only[data-action=cancel].btn-large, .ess-dashboard-2 .btn.icon-only.icon-only[data-action=request_cancelation], .ess-dashboard-2 .icon-only.icon-only[data-action=request_cancelation].btn-large {
+  background-color: transparent;
+}
+.ess-dashboard-2 .btn.icon-only.icon-only[data-action=decline] .fa, .ess-dashboard-2 .icon-only.icon-only[data-action=decline].btn-large .fa, .ess-dashboard-2 .btn.icon-only.icon-only[data-action=cancel] .fa, .ess-dashboard-2 .icon-only.icon-only[data-action=cancel].btn-large .fa, .ess-dashboard-2 .btn.icon-only.icon-only[data-action=request_cancelation] .fa, .ess-dashboard-2 .icon-only.icon-only[data-action=request_cancelation].btn-large .fa {
+  color: #C7384F;
+}
+.ess-dashboard-2 .widget {
+  background: #fff !important;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+.ess-dashboard-2 .widget .widget-header {
+  padding: 0 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid #E6EBED;
+  height: 60px;
+}
+.ess-dashboard-2 .widget .widget-header .icon {
+  margin-inline-end: 0.5rem;
+  color: #aaa;
+  font-size: 18px;
+}
+.ess-dashboard-2 .widget .widget-header .title {
+  flex-grow: 1;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+.ess-dashboard-2 .widget .widget-header .right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.ess-dashboard-2 .widget .widget-header .widget-options {
+  display: none;
+}
+.ess-dashboard-2 .widget .widget-header .widget-options .widget-remove {
+  color: #C7384F;
+}
+.ess-dashboard-2 .widget .widget-content {
+  padding: 1rem;
+}
+.ess-dashboard-2 .pending-requests .row {
+  padding: 0;
+  margin: 0 0 1rem;
+}
+.ess-dashboard-2 .pending-requests .info {
+  flex-grow: 1;
+}
+.ess-dashboard-2 .pending-requests .info .employee-name {
+  font-weight: bold;
+}
+.ess-dashboard-2 .pending-requests .info p {
+  margin-bottom: 0;
+}
+.ess-dashboard-2 .my-balance-picker {
+  position: relative;
+}
+.ess-dashboard-2.widget-control-enabled .widget .widget-header .widget-options {
+  display: block;
+}
+.ess-dashboard-2 #team-leaves .fc-timeline-event.fc-event-end, .ess-dashboard-2 #team-leaves .fc-direction-ltr .fc-timeline-more-link {
+  border-radius: 1rem;
+  cursor: pointer;
+}
+.ess-dashboard-2 #team-leaves .fc .fc-timeline-event-harness, .ess-dashboard-2 #team-leaves .fc .fc-timeline-more-link {
+  top: 13px !important;
+}
+.ess-dashboard-2 #team-leaves .fc-scrollgrid-sync-table tr:nth-child(even) td {
+  background: #fafafa;
+}
+.ess-dashboard-2 #team-leaves .fc-scrollgrid {
+  border: none;
+}
+.ess-dashboard-2 #team-leaves .fc-scrollgrid td, .ess-dashboard-2 #team-leaves .fc-scrollgrid th {
+  border: none;
+}
+.ess-dashboard-2 #team-leaves .fc .fc-datagrid-cell-cushion {
+  padding: 2px;
+}
+.ess-dashboard-2 #team-leaves .fc-header-toolbar.fc-toolbar.fc-toolbar-ltr {
+  display: none;
+}
+.ess-dashboard-2 .avatar {
+  margin-inline-end: 0.5rem;
+}
+.ess-dashboard-2 .avatar img {
+  border-radius: 50%;
+}
+.ess-dashboard-2 .team-leaves-resource-row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */

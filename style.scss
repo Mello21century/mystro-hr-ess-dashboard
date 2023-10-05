@@ -1,0 +1,178 @@
+body {
+  background: #f5f5f5;
+}
+
+.ess-dashboard-2 {
+
+  .text-xl {
+    font-size: 36px;
+    font-weight: bold;
+  }
+
+  .blue {
+    color: #3a7dd8;
+  }
+
+  .orange {
+    color: #d5761b;
+  }
+  .waves-effect {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #3a7dd8;
+    color: #3a7dd8;
+    background: transparent;
+    border-radius: 4px;
+    font-size: 14px;
+    height: 40px;
+    padding: 0 0.5rem;
+    box-shadow: none;
+    max-width: 400px;
+    z-index: auto;
+    will-change: unset;
+    &:hover {
+      box-shadow: 0 3px 5px rgba(0,0,0,0.12);
+    }
+  }
+
+  a.link:not(.btn):not(.btn-large), a.link:visited:not(.btn):not(.btn-large), a.link:active:not(.btn):not(.btn-large), a.download-link:not(.btn):not(.btn-large), a.download-link:visited:not(.btn):not(.btn-large), a.download-link:active:not(.btn):not(.btn-large), a.select-all:not(.btn):not(.btn-large), a.select-all:visited:not(.btn):not(.btn-large), a.select-all:active:not(.btn):not(.btn-large), a.select-none:not(.btn):not(.btn-large), a.select-none:visited:not(.btn):not(.btn-large), a.select-none:active:not(.btn):not(.btn-large) {
+    text-decoration: underline;
+  }
+
+  .btn.icon-only {
+    background-color: transparent;
+  }
+
+  .btn.icon-only.icon-only[data-action='approve'] .fa, .icon-only.icon-only[data-action='approve'].btn-large .fa {
+    color: #007e45;
+  }
+
+  .btn.icon-only.icon-only[data-action='decline'], .icon-only.icon-only[data-action='decline'].btn-large, .btn.icon-only.icon-only[data-action='cancel'], .icon-only.icon-only[data-action='cancel'].btn-large, .btn.icon-only.icon-only[data-action='request_cancelation'], .icon-only.icon-only[data-action='request_cancelation'].btn-large {
+    background-color: transparent;
+  }
+
+  .btn.icon-only.icon-only[data-action='decline'] .fa, .icon-only.icon-only[data-action='decline'].btn-large .fa, .btn.icon-only.icon-only[data-action='cancel'] .fa, .icon-only.icon-only[data-action='cancel'].btn-large .fa, .btn.icon-only.icon-only[data-action='request_cancelation'] .fa, .icon-only.icon-only[data-action='request_cancelation'].btn-large .fa {
+    color: #C7384F;
+  }
+
+  .widget {
+    background: #fff !important;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+
+    .widget-header {
+      padding: 0 1rem;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      border-bottom: 1px solid #E6EBED;
+      height: 60px;
+
+      .icon {
+        margin-inline-end: 0.5rem;
+        color: #aaa;
+        font-size: 18px;
+      }
+
+      .title {
+        flex-grow: 1;
+        font-weight: bold;
+        font-size: 16px;
+        margin-bottom: 0;
+      }
+
+      .right {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+      }
+
+      .widget-options {
+        display: none;
+
+        .widget-remove {
+          color: #C7384F;
+        }
+      }
+    }
+
+    .widget-content {
+      padding: 1rem;
+    }
+  }
+
+  .pending-requests {
+    .row {
+      padding: 0;
+      margin: 0 0 1rem;
+    }
+
+    .info {
+      flex-grow: 1;
+
+      .employee-name {
+        font-weight: bold;
+      }
+
+      p {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .my-balance-picker {
+    position: relative;
+  }
+
+  &.widget-control-enabled {
+    .widget .widget-header .widget-options {
+      display: block;
+    }
+  }
+
+  #team-leaves {
+
+    .fc-timeline-event.fc-event-end, .fc-direction-ltr .fc-timeline-more-link {
+      border-radius: 1rem;
+      cursor: pointer;
+    }
+
+    .fc .fc-timeline-event-harness, .fc .fc-timeline-more-link {
+      top: 13px !important;
+    }
+
+    .fc-scrollgrid-sync-table tr:nth-child(even) td {
+      background: #fafafa;
+    }
+
+    .fc-scrollgrid {
+      border: none;
+
+      td, th {
+        border: none;
+      }
+    }
+    .fc .fc-datagrid-cell-cushion {
+      padding: 2px;
+    }
+    .fc-header-toolbar.fc-toolbar.fc-toolbar-ltr {
+      display: none;
+    }
+  }
+
+  .avatar {
+    margin-inline-end: 0.5rem;
+
+    img {
+      border-radius: 50%;
+    }
+  }
+
+  .team-leaves-resource-row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+}
